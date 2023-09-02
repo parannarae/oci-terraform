@@ -1,0 +1,1 @@
+A repository to play with Terraform in OCI (Oracle Cloud Infrastructure)
