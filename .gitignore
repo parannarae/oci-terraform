@@ -52,6 +52,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Ignore lock file
+.terraform.lock.hcl
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
