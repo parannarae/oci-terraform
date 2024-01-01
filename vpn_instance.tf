@@ -90,10 +90,10 @@ resource "oci_core_instance" "open_vpn2" {
 }
 
 # Change resource name
-moved {
-  from = oci_core_instance.open_vpn1
-  to   = oci_core_instance.open_vpn2
-}
+# moved {
+#   from = oci_core_instance.open_vpn1
+#   to   = oci_core_instance.open_vpn2
+# }
 
 # resource "oci_core_instance" "open_vpn3" {
 #   availability_domain = var.instance_availability_domain
